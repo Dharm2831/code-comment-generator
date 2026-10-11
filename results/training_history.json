@@ -1,0 +1,26 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 2.847838241382712,
+    "train_accuracy": 0.46156608197145926,
+    "val_loss": 2.5472296618105252,
+    "val_accuracy": 0.4957588950608017,
+    "minutes_elapsed": 74.88492140372594
+  },
+  {
+    "epoch": 2,
+    "train_loss": 2.5758573738577004,
+    "train_accuracy": 0.4914633906837847,
+    "val_loss": 2.503312078901748,
+    "val_accuracy": 0.5040159135264975,
+    "minutes_elapsed": 155.60684399604799
+  },
+  {
+    "epoch": 3,
+    "train_loss": 2.4685870759148663,
+    "train_accuracy": 0.5057702476515292,
+    "val_loss": 2.4866886317971555,
+    "val_accuracy": 0.5062302957513887,
+    "minutes_elapsed": 211.7522214015325
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "base_model": "Salesforce/codet5-small",
+  "dataset": "google/code_x_glue_ct_code_to_text",
+  "languages": [
+    "python",
+    "java"
+  ],
+  "training_samples": 406121,
+  "validation_samples": 2000,
+  "batch_size": 16,
+  "epochs": 3,
+  "learning_rate": 5e-05,
+  "optimizer": "AdamW (weight decay 0.01)",
+  "lr_schedule": "linear warmup (10%) then linear decay",
+  "loss_function": "cross-entropy over the vocabulary",
+  "max_input_tokens": 256,
+  "max_output_tokens": 48,
+  "gradient_clipping": 1.0,
+  "device": "NVIDIA GeForce RTX 5050 Laptop GPU",
+  "training_time_minutes": 211.8,
+  "best_validation_loss": 2.4866886317971555,
+  "model": {
+    "architecture": "Transformer encoder-decoder (T5 family)",
+    "encoder_layers": 6,
+    "decoder_layers": 6,
+    "hidden_size_d_model": 512,
+    "feed_forward_size_d_ff": 2048,
+    "attention_heads": 8,
+    "activation_function": "relu",
+    "output_activation": "softmax over the vocabulary",
+    "dropout": 0.1,
+    "vocabulary_size_output_classes": 32100,
+    "total_parameters": 60492288,
+    "trainable_parameters": 60492288
+  }
+}

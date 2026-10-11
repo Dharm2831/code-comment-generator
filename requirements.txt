@@ -1,0 +1,7 @@
+# Install PyTorch separately first (README.md section 3) so you get the GPU build.
+transformers>=4.44
+datasets>=3.0
+sacrebleu>=2.4
+matplotlib>=3.8
+gradio>=5.0
+huggingface_hub>=0.25

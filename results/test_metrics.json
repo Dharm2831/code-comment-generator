@@ -1,0 +1,38 @@
+{
+  "test_samples": 2000,
+  "device": "cuda",
+  "fine_tuned_model": {
+    "test_loss": 2.512,
+    "token_accuracy": 0.5017,
+    "bleu": 8.98,
+    "chrf": 30.84,
+    "inference_seconds_per_function": 0.018,
+    "per_language": {
+      "python": {
+        "bleu": 6.95,
+        "chrf": 28.42
+      },
+      "java": {
+        "bleu": 10.89,
+        "chrf": 33.16
+      }
+    }
+  },
+  "before_fine_tuning": {
+    "test_loss": 9.4725,
+    "token_accuracy": 0.1877,
+    "bleu": 0.28,
+    "chrf": 11.52,
+    "inference_seconds_per_function": 0.041,
+    "per_language": {
+      "python": {
+        "bleu": 0.39,
+        "chrf": 13.18
+      },
+      "java": {
+        "bleu": 0.09,
+        "chrf": 9.81
+      }
+    }
+  }
+}

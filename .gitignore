@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+# large files: the dataset cache and the trained model are not pushed to GitHub
+dataset/*
+!dataset/.gitkeep
+models/*
+!models/.gitkeep
+# submission folder and zip for Google Classroom
+Group_*_code/
+Group_*_code.zip
